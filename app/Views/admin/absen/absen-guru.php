@@ -10,7 +10,7 @@
             </div>
          </div>
       </div>
-      <div class="card primary">
+      <div class="card info">
          <div class="card-body">
             <div class="row justify-content-between">
                <div class="col">

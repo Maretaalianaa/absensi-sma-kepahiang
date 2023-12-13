@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class GuruModel extends Model
 {
    protected $allowedFields = [
-      'nuptk',
+      'nip',
       'nama_guru',
       'jenis_kelamin',
       'alamat',
@@ -34,16 +34,16 @@ class GuruModel extends Model
       return $this->where([$this->primaryKey => $id])->first();
    }
 
-   public function saveGuru($idGuru, $nuptk, $namaGuru, $jenisKelamin, $alamat, $noHp)
+   public function saveGuru($idGuru, $nip, $namaGuru, $jenisKelamin, $alamat, $noHp)
    {
       return $this->save([
          $this->primaryKey => $idGuru,
-         'nuptk' => $nuptk,
+         'nip' => $nip,
          'nama_guru' => $namaGuru,
          'jenis_kelamin' => $jenisKelamin,
          'alamat' => $alamat,
          'no_hp' => $noHp,
-         'unique_code' => sha1($namaGuru . md5($nuptk . $namaGuru . $noHp)) . substr(sha1($nuptk . rand(0, 100)), 0, 24)
+         'unique_code' => sha1($namaGuru . md5($nip . $namaGuru . $noHp)) . substr(sha1($nip . rand(0, 100)), 0, 24)
       ]);
    }
 }

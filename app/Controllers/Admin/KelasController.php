@@ -207,9 +207,11 @@ class KelasController extends ResourceController
      */
     public function delete($id = null)
     {
-        $result = $this->kelasModel->delete($id);
+        $result = $this->kelasModel->where(['id' => $id])->delete();
 
         if ($result) {
+            // Hard delete the record
+            $this->kelasModel->purgeDeleted();
             session()->setFlashdata([
                 'msg' => 'Data berhasil dihapus',
                 'error' => false

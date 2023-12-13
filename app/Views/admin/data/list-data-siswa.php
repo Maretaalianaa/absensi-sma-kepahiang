@@ -23,7 +23,7 @@
                   <td><?= $value['jurusan']; ?></td>
                   <td><?= $value['no_hp']; ?></td>
                   <td>
-                     <a href="<?= base_url('admin/siswa/edit/' . $value['id_siswa']); ?>" type="button" class="btn btn-primary p-2" id="<?= $value['nis']; ?>">
+                     <a href="<?= base_url('admin/siswa/edit/' . $value['id_siswa']); ?>" type="button" class="btn btn-info p-2" id="<?= $value['nis']; ?>">
                         <i class="material-icons">edit</i>
                         Edit
                      </a>

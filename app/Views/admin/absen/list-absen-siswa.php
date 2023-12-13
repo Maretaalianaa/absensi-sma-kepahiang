@@ -7,7 +7,7 @@
             </div>
         </div>
         <div class="col">
-            <a href="#" class="btn btn-primary pl-3 mr-3 mt-3" onclick="kelas = onDateChange()" data-toggle="tab">
+            <a href="#" class="btn btn-info pl-3 mr-3 mt-3" onclick="kelas = onDateChange()" data-toggle="tab">
                 <i class="material-icons mr-2">refresh</i> Refresh
             </a>
         </div>

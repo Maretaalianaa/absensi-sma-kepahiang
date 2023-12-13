@@ -5,7 +5,7 @@
       <div class="row">
          <div class="col-lg-12 col-md-12">
             <div class="card">
-               <div class="card-header card-header-primary">
+               <div class="card-header card-header-info">
                   <h4 class="card-title"><b>Form Edit Petugas</b></h4>
                   <!-- <p class="card-category">Angkatan 2022/2023</p> -->
                </div>
@@ -66,7 +66,7 @@
                         <?= $validation->getError('role'); ?>
                      </div>
 
-                     <button type="submit" class="btn btn-primary btn-block mt-3">Simpan</button>
+                     <button type="submit" class="btn btn-info btn-block mt-3">Simpan</button>
                   </form>
                </div>
             </div>

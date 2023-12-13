@@ -37,7 +37,7 @@
                                  <br>
                                  <a href="<?= base_url('admin/siswa'); ?>">Lihat data</a>
                               </p>
-                              <button onclick="generateAllQrSiswa()" class="btn btn-primary pl-3 py-4">
+                              <button onclick="generateAllQrSiswa()" class="btn btn-info pl-3 py-4">
                                  <div class="row align-items-center">
                                     <div class="col">
                                        <i class="material-icons" style="font-size: 64px;">qr_code</i>
@@ -65,7 +65,7 @@
                                     </option>
                                  <?php endforeach; ?>
                               </select>
-                              <button onclick="generateQrSiswaByKelas()" class="btn btn-primary pl-3">
+                              <button onclick="generateQrSiswaByKelas()" class="btn btn-info pl-3">
                                  <div class="row align-items-center">
                                     <div class="col">
                                        <i class="material-icons" style="font-size: 32px;">qr_code</i>
@@ -138,7 +138,7 @@
          echo "{
                   'nama' : '$value[nama_guru]',
                   'unique_code' : '$value[unique_code]',
-                  'nomor' : '$value[nuptk]'
+                  'nomor' : '$value[nip]'
                },";
       }; ?>
    ];

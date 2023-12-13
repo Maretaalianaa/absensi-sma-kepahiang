@@ -41,7 +41,7 @@ class CreateDB extends Migration
 
         $this->forge->getConnection()->query("CREATE TABLE tb_guru (
             id_guru int(11) NOT NULL,
-            nuptk varchar(24) NOT NULL,
+            nip varchar(24) NOT NULL,
             nama_guru varchar(255) NOT NULL,
             jenis_kelamin enum('Laki-laki','Perempuan') NOT NULL,
             alamat text NOT NULL,

@@ -3,8 +3,8 @@
       <nav class="float-left">
          <ul>
             <li>
-               <a href="https://www.instagram.com/ikhsan3adi/">
-                  Instagram
+               <a href="">
+
                </a>
             </li>
          </ul>
@@ -16,7 +16,7 @@
                 document.write(new Date().getFullYear())
             </script> -->
          <!-- , made with <i class="material-icons">favorite</i> by
-            <a href="https://www.instagram.com/ikhsan3adi/" target="_blank">Ikhsan S.</a> -->
+            <a href="" target="_blank">Ikhsan S.</a> -->
       </div>
    </div>
 </footer>

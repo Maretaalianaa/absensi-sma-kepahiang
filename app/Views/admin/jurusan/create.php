@@ -5,7 +5,7 @@
     <div class="row">
       <div class="col-lg-12 col-md-12">
         <div class="card">
-          <div class="card-header card-header-primary">
+          <div class="card-header card-header-info">
             <h4 class="card-title"><b>Form Tambah Jurusan</b></h4>
           </div>
           <div class="card-body mx-5 my-3">
@@ -32,7 +32,7 @@
                   <?= $validation->getError('jurusan'); ?>
                 </div>
               </div>
-              <button type="submit" class="btn btn-primary mt-4">Simpan</button>
+              <button type="submit" class="btn btn-info mt-4">Simpan</button>
             </form>
           </div>
         </div>

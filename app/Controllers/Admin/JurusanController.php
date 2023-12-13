@@ -176,9 +176,11 @@ class JurusanController extends ResourceController
      */
     public function delete($id = null)
     {
-        $result = $this->jurusanModel->delete($id);
+        $result = $this->jurusanModel->where(['id' => $id])->delete();
 
         if ($result) {
+            // Hard delete the record
+            $this->jurusanModel->purgeDeleted();
             session()->setFlashdata([
                 'msg' => 'Data berhasil dihapus',
                 'error' => false

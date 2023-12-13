@@ -1,7 +1,7 @@
  <?= $this->extend('templates/starting_page_layout'); ?>
 
  <?= $this->section('navaction') ?>
- <a href="<?= base_url('/admin'); ?> " class="btn btn-primary pull-right pl-3">
+ <a href="<?= base_url('/admin'); ?> " class="btn btn-info pull-right pl-3">
     <i class="material-icons mr-2">dashboard</i>
     Dashboard
  </a>
@@ -30,7 +30,7 @@
              </div>
              <div class="col-lg-6 col-xl-4">
                 <div class="card">
-                   <div class="col-10 mx-auto card-header card-header-primary">
+                   <div class="col-10 mx-auto card-header card-header-info">
                       <div class="row">
                          <div class="col">
                             <h4 class="card-title"><b>Absen <?= $waktu; ?></b></h4>

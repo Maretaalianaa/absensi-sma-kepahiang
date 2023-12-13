@@ -39,7 +39,7 @@
 </div>
 <div class="modal-footer">
    <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
-   <button type="button" onclick="ubahKehadiran()" class="btn btn-primary" data-dismiss="modal">Ubah</button>
+   <button type="button" onclick="ubahKehadiran()" class="btn btn-info" data-dismiss="modal">Ubah</button>
 </div>
 
 <?php

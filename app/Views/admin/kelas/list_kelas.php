@@ -15,7 +15,7 @@
             <td><b><?= $value['kelas']; ?></b></td>
             <td><?= $value['jurusan']; ?></td>
             <td>
-              <a href="<?= base_url('admin/kelas/' . $value['id_kelas'] . '/edit'); ?>" type="button" class="btn btn-primary p-2" id="<?= $value['id_kelas']; ?>">
+              <a href="<?= base_url('admin/kelas/' . $value['id_kelas'] . '/edit'); ?>" type="button" class="btn btn-info p-2" id="<?= $value['id_kelas']; ?>">
                 <i class="material-icons">edit</i>
                 Edit
               </a>

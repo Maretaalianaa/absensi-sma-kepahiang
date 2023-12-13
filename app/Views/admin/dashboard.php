@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="card card-stats">
-                    <div class="card-header card-header-primary card-header-icon">
+                    <div class="card-header card-header-info card-header-icon">
                         <div class="card-icon">
                             <a href="<?= base_url('admin/siswa'); ?>" class="text-white">
                                 <i class="material-icons">person</i>
@@ -56,7 +56,7 @@
                     <div class="card-footer">
                         <div class="stats">
                             <i class="material-icons">home</i>
-                            SMK 12369 HONGKONG
+                            SMA Negeri 1 KEPAHIANG
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="card">
-                    <div class="card-header card-header-primary">
+                    <div class="card-header card-header-info">
                         <h4 class="card-title"><b>Absensi Siswa Hari Ini</b></h4>
                         <p class="card-category"><?= $dateNow; ?></p>
                     </div>
@@ -143,7 +143,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="card card-chart">
-                    <div class="card-header card-header-primary">
+                    <div class="card-header card-header-info">
                         <div class="ct-chart" id="kehadiranSiswa"></div>
                     </div>
                     <div class="card-body">

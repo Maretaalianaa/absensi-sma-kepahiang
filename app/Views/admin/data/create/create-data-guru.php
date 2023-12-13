@@ -27,10 +27,10 @@
                      <?php $validation = \Config\Services::validation(); ?>
 
                      <div class="form-group mt-4">
-                        <label for="nuptk">NUPTK</label>
-                        <input type="text" id="nuptk" class="form-control <?= $validation->getError('nuptk') ? 'is-invalid' : ''; ?>" name="nuptk" placeholder="1234" value="<?= old('nuptk') ?? $oldInput['nuptk'] ?? '' ?>">
+                        <label for="nip">NIP</label>
+                        <input type="text" id="nip" class="form-control <?= $validation->getError('nip') ? 'is-invalid' : ''; ?>" name="nip" placeholder="1234" value="<?= old('nip') ?? $oldInput['nip'] ?? '' ?>">
                         <div class="invalid-feedback">
-                           <?= $validation->getError('nuptk'); ?>
+                           <?= $validation->getError('nip'); ?>
                         </div>
                      </div>
 

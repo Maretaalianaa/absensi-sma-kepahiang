@@ -23,7 +23,7 @@
                            $namaKelas =  $value['kelas'] . ' ' . $value['jurusan'];
                            ?>
                            <div class="col-md-3">
-                              <button id="kelas-<?= $idKelas; ?>" onclick="getSiswa(<?= $idKelas; ?>, '<?= $namaKelas; ?>')" class="btn btn-primary w-100">
+                              <button id="kelas-<?= $idKelas; ?>" onclick="getSiswa(<?= $idKelas; ?>, '<?= $namaKelas; ?>')" class="btn btn-info w-100">
                                  <?= $namaKelas; ?>
                               </button>
                            </div>
@@ -87,7 +87,7 @@
                </div>
                <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
-                  <button type="submit" onclick="tambahDataKelas()" class="btn btn-primary">Simpan</button>
+                  <button type="submit" onclick="tambahDataKelas()" class="btn btn-info">Simpan</button>
                </div>
             </form>
          </div>
@@ -152,9 +152,9 @@
       for (let index = 1; index <= <?= count($kelas); ?>; index++) {
          if (index != id_btn) {
             $('#kelas-' + index).removeClass('btn-success');
-            $('#kelas-' + index).addClass('btn-primary');
+            $('#kelas-' + index).addClass('btn-info');
          } else {
-            $('#kelas-' + index).removeClass('btn-primary');
+            $('#kelas-' + index).removeClass('btn-info');
             $('#kelas-' + index).addClass('btn-success');
          }
       }

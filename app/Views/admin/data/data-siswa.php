@@ -14,11 +14,11 @@
                   </div>
                </div>
             <?php endif; ?>
-            <a class="btn btn-primary ml-3 pl-3 py-3" href="<?= base_url('admin/siswa/create'); ?>">
+            <a class="btn btn-info ml-3 pl-3 py-3" href="<?= base_url('admin/siswa/create'); ?>">
                <i class="material-icons mr-2">add</i> Tambah data siswa
             </a>
             <div class="card">
-               <div class="card-header card-header-tabs card-header-primary">
+               <div class="card-header card-header-tabs card-header-info">
                   <div class="nav-tabs-navigation">
                      <div class="row">
                         <div class="col-md-2">

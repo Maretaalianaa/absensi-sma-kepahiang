@@ -1,7 +1,7 @@
  <?= $this->extend('templates/starting_page_layout'); ?>
 
  <?= $this->section('navaction') ?>
- <a href="<?= base_url('/'); ?>" class="btn btn-primary pull-right pl-3">
+ <a href="<?= base_url('/'); ?>" class="btn btn-info pull-right pl-3">
     <i class="material-icons mr-2">qr_code</i>
     Scan QR
  </a>
@@ -14,7 +14,7 @@
           <div class="row">
              <div class="col-md-4 m-auto">
                 <div class="card">
-                   <div class="card-header card-header-primary mb-48">
+                   <div class="card-header card-header-info mb-48">
                       <h4 class="card-title">Login petugas</h4>
                       <p class="card-category">Silahkan masukkan username dan password anda</p>
                    </div>

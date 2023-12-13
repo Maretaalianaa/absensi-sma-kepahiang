@@ -12,7 +12,7 @@ class DataGuru extends BaseController
    protected GuruModel $guruModel;
 
    protected $guruValidationRules = [
-      'nip' => [
+      'nip' => [ 
          'rules' => 'required|max_length[20]|min_length[16]',
          'errors' => [
             'required' => 'NIP harus diisi.',
